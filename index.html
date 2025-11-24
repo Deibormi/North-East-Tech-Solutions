@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>North East Tech Solution | Theory-to-Job Readiness</title>
+    <!-- Load Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Load Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        /* Custom font import and application */
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f7fafc; /* Light gray background */
+        }
+        .header-bg {
+            background-color: #2c5282; /* Deep Blue header */
+        }
+        .cta-button {
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1);
+        }
+        .cta-button:hover {
+            box-shadow: 0 10px 15px -3px rgba(30, 64, 175, 0.5), 0 4px 6px -4px rgba(30, 64, 175, 0.5);
+            transform: translateY(-2px);
+        }
+    </style>
+</head>
+<body class="text-gray-800">
+
+    <!-- Header & Navigation -->
+    <header class="header-bg text-white shadow-lg">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
+            <div class="text-2xl font-bold tracking-tight">
+                North East Tech Solution
+            </div>
+            <nav class="hidden md:flex space-x-6">
+                <a href="#problem" class="hover:text-yellow-300 transition duration-150">The Problem</a>
+                <a href="#features" class="hover:text-yellow-300 transition duration-150">How It Works</a>
+                <a href="#benefits" class="hover:text-yellow-300 transition duration-150">Benefits</a>
+            </nav>
+            <a href="#cta" class="bg-yellow-400 text-gray-900 px-4 py-2 rounded-lg font-semibold hover:bg-yellow-300 transition duration-150 shadow-md">
+                Start Free
+            </a>
+        </div>
+    </header>
+
+    <!-- 1. Hero Section (Unique Value Proposition) -->
+    <main class="py-16 md:py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h1 class="text-4xl sm:text-6xl font-extrabold text-gray-900 leading-tight mb-4">
+                Bridge the Gap. Guarantee Your Job.
+            </h1>
+            <p class="text-xl sm:text-2xl text-gray-600 mb-8 max-w-4xl mx-auto">
+                The only platform with an **AI-powered Theory-to-Practice Linkage Engine** that instantly connects your academic concepts to working, industry-ready projects.
+            </p>
+            
+            <div class="space-x-4">
+                <a href="#cta" class="cta-button inline-flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-xl text-white bg-blue-600 hover:bg-blue-700 md:py-4 md:text-lg md:px-10">
+                    <i data-lucide="code-square" class="w-5 h-5 mr-2"></i> Start Your First Project FREE
+                </a>
+                <a href="#features" class="inline-flex items-center justify-center px-8 py-3 border border-blue-600 text-base font-medium rounded-xl text-blue-600 bg-white hover:bg-blue-50 md:py-4 md:text-lg md:px-10 transition">
+                    See How It Works
+                </a>
+            </div>
+            
+        </div>
+    </main>
+
+    <!-- 2. Problem We Solve (The Why) -->
+    <section id="problem" class="py-16 bg-gray-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold text-center mb-12">The Problem: Why Students Fear Placement</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+                
+                <div class="p-6 bg-white rounded-xl shadow-lg border border-red-200">
+                    <i data-lucide="book-open-check" class="w-10 h-10 text-red-500 mx-auto mb-4"></i>
+                    <h3 class="text-xl font-semibold mb-3">The Theory Trap</h3>
+                    <p class="text-gray-600">You know the textbook concepts (algorithms, formulas) but struggle to write practical, functioning code that uses them.</p>
+                </div>
+                
+                <div class="p-6 bg-white rounded-xl shadow-lg border border-red-200">
+                    <i data-lucide="battery-low" class="w-10 h-10 text-yellow-500 mx-auto mb-4"></i>
+                    <h3 class="text-xl font-semibold mb-3">Low Engagement & Motivation</h3>
+                    <p class="text-gray-600">Classes feel abstract and irrelevant, leading to burnout and low motivation because you don't see the real-world value.</p>
+                </div>
+                
+                <div class="p-6 bg-white rounded-xl shadow-lg border border-red-200">
+                    <i data-lucide="folder-x" class="w-10 h-10 text-red-700 mx-auto mb-4"></i>
+                    <h3 class="text-xl font-semibold mb-3">The Empty Portfolio</h3>
+                    <p class="text-gray-600">Without real projects, your resume looks weak, making you feel anxious about securing a competitive job or internship.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. How It Works (Key Features) -->
+    <section id="features" class="py-16 md:py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold text-center mb-12 text-blue-600">How It Works: Your 3-Step Path to Mastery</h2>
+            <div class="relative max-w-5xl mx-auto">
+                
+                <!-- Timeline/Process Steps -->
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+                    
+                    <!-- Step 1: Connect -->
+                    <div class="relative p-6 bg-white rounded-xl shadow-2xl transition hover:shadow-blue-300">
+                        <div class="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-12 h-12 flex items-center justify-center rounded-full bg-blue-600 text-white font-bold text-lg border-4 border-white">1</div>
+                        <i data-lucide="link" class="w-8 h-8 text-blue-600 mb-3 mt-4"></i>
+                        <h3 class="text-xl font-bold mb-2">Connect Theory</h3>
+                        <p class="text-gray-600">Select an academic concept (e.g., Dijkstra's Algorithm). Our AI instantly shows you 5 real-world applications and projects that use it.</p>
+                    </div>
+
+                    <!-- Step 2: Apply -->
+                    <div class="relative p-6 bg-white rounded-xl shadow-2xl transition hover:shadow-blue-300">
+                        <div class="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-12 h-12 flex items-center justify-center rounded-full bg-blue-600 text-white font-bold text-lg border-4 border-white">2</div>
+                        <i data-lucide="hard-hat" class="w-8 h-8 text-blue-600 mb-3 mt-4"></i>
+                        <h3 class="text-xl font-bold mb-2">Engage in Guided Building</h3>
+                        <p class="text-gray-600">Use our interactive code editor to follow a step-by-step project workflow. Get 24/7 help and debug with our AI Mentor.</p>
+                    </div>
+
+                    <!-- Step 3: Validate -->
+                    <div class="relative p-6 bg-white rounded-xl shadow-2xl transition hover:shadow-blue-300">
+                        <div class="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-12 h-12 flex items-center justify-center rounded-full bg-blue-600 text-white font-bold text-lg border-4 border-white">3</div>
+                        <i data-lucide="briefcase" class="w-8 h-8 text-blue-600 mb-3 mt-4"></i>
+                        <h3 class="text-xl font-bold mb-2">Validate & Secure Job</h3>
+                        <p class="text-gray-600">Complete the project and receive a verified entry for your dynamic portfolio, ready to impress recruiters and secure your first job.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Unique Feature Block -->
+            <div class="mt-16 text-center bg-blue-50 p-8 rounded-xl shadow-inner border border-blue-200">
+                <h3 class="text-2xl font-bold text-blue-700 mb-3">Our Unfair Advantage: Mentor Network</h3>
+                <p class="text-lg text-blue-900">Unlock our premium plan for **on-demand, 1-on-1 video access** to verified industry professionals who provide real-time code reviews and personalized career guidance.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. Benefits (Emotional & Social) -->
+    <section id="benefits" class="py-16 md:py-24 bg-gray-800 text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold text-center mb-12 text-yellow-400">The Confidence You Gain</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                
+                <!-- Benefit Card 1: Confidence -->
+                <div class="p-5 bg-gray-700 rounded-xl shadow-lg">
+                    <i data-lucide="zap" class="w-7 h-7 text-yellow-400 mb-3"></i>
+                    <h4 class="text-lg font-semibold mb-2">Feel Competent</h4>
+                    <p class="text-gray-400">Instantly boost your **emotional security** and confidence about your technical abilities.</p>
+                </div>
+
+                <!-- Benefit Card 2: Social Recognition -->
+                <div class="p-5 bg-gray-700 rounded-xl shadow-lg">
+                    <i data-lucide="award" class="w-7 h-7 text-yellow-400 mb-3"></i>
+                    <h4 class="text-lg font-semibold mb-2">Impress Recruiters</h4>
+                    <p class="text-gray-400">Gain **social recognition** and stand out in interviews with a strong, verifiable project portfolio.</p>
+                </div>
+
+                <!-- Benefit Card 3: Motivation -->
+                <div class="p-5 bg-gray-700 rounded-xl shadow-lg">
+                    <i data-lucide="trending-up" class="w-7 h-7 text-yellow-400 mb-3"></i>
+                    <h4 class="text-lg font-semibold mb-2">Motivation Lift</h4>
+                    <p class="text-gray-400">Feel highly **motivated and engaged** by seeing your learning immediately translate into career progress.</p>
+                </div>
+
+                <!-- Benefit Card 4: Financial Future -->
+                <div class="p-5 bg-gray-700 rounded-xl shadow-lg">
+                    <i data-lucide="check-circle" class="w-7 h-7 text-yellow-400 mb-3"></i>
+                    <h4 class="text-lg font-semibold mb-2">Secure Your Future</h4>
+                    <p class="text-gray-400">Minimize career anxiety by having the **functional skills** needed for high-value jobs.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. Final CTA / Pricing -->
+    <section id="cta" class="py-16 bg-white text-center">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold mb-4">Ready to Build Your Career-Ready Portfolio?</h2>
+            <p class="text-xl text-gray-600 mb-8">Start with our Free tier, or unlock 100% of our premium projects and 1:1 mentorship for just **Rs. 799/month**.</p>
+            
+            <a href="#" class="cta-button inline-flex items-center justify-center px-10 py-4 border border-transparent text-xl font-medium rounded-xl text-white bg-green-600 hover:bg-green-700 shadow-xl">
+                <i data-lucide="cpu" class="w-6 h-6 mr-2"></i> Get Started FREE Today!
+            </a>
+            
+            <p class="mt-6 text-sm text-gray-500">No credit card required for the free trial. Cancel anytime.</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-8">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-sm">
+            <p>&copy; 2025 North East Tech Solution. All rights reserved.</p>
+            <p class="mt-2">Contact: support@northeasttech.in</p>
+        </div>
+    </footer>
+
+    <!-- Initialize Lucide Icons -->
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
